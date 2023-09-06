@@ -1,0 +1,29 @@
+{
+  "name": "dictionary-api",
+  "version": "1.0.0",
+  "description": "API ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BDA2013/dictionary-api.git"
+  },
+  "author": "Sergio Rojas-Aguilar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/BDA2013/dictionary-api/issues"
+  },
+  "homepage": "https://github.com/BDA2013/dictionary-api#readme",
+  "keywords": []
+}
