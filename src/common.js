@@ -6,4 +6,5 @@ const sendResponse = (statusCode, result) => ({
   },
   body: JSON.stringify(result),
 });
+
 module.exports = sendResponse
