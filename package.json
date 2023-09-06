@@ -5,13 +5,15 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "deploy": "npx serverless deploy -s dev",
+    "remove": "npx serverless remove -s dev"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BDA2013/dictionary-api.git"
   },
-  "author": "Sergio Rojas-Aguilar",
+  "author": "BDA2013",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",

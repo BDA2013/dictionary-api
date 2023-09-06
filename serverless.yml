@@ -1,0 +1,20 @@
+service: dictionary-api
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+
+functions:
+  get-references:
+    handler: src/getReferences.handler
+    events:
+      - http:
+          path: /references
+          method: get
+  get-dictionaries:
+    handler: src/getDictionaries.handler
+    events:
+      - http:
+          path: /dictionaries
+          method: get
